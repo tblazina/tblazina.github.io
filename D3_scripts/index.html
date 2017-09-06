@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> D3 Test </title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <script type="text/javascript" src="/d3/d3.v3.js"></script>
+	</head>
+	<body>
+
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/D3_scripts">D3 Projects</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+
+    		<div class="blurb">
+
+		        <script type="text/javascript">
+		        	var dataset = [ 1, 2, 3, 4, 5];
+		            d3.select("body").selectAll('p')
+		              .data(dataset)
+		              .enter()
+		              .append("p")
+		              .text("Place D3 Objects Here!");
+		            
+		        </script>
+				
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+	<footer>
+    	<ul>
+        	<li><a href="mailto:tim@felfel.ch">email</a></li>
+        	<li><a href="https://github.com/tblazina">github.com/tblazina</a></li>
+		</ul>
+		</footer>
+	</body>
+</html>
