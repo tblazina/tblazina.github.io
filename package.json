@@ -1,7 +1,7 @@
 {
-  "name": "tblazina.github.io",
+  "name": "webpage",
   "version": "1.0.0",
-  "description": "Personal website",
+  "description": "A Vue.js project",
   "author": "tim blazina <tim.blazina@gmail.com>",
   "private": true,
   "scripts": {

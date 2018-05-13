@@ -1,6 +1,6 @@
-# tblazina.github.io
+# webpage
 
-> Personal website
+> A Vue.js project
 
 ## Build Setup
 
